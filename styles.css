@@ -1,0 +1,69 @@
+/* Container for injected elements */
+.gemma-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+/* The small "Improve" button next to text areas */
+.gemma-btn-improve {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 11px;
+  background: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 2px 6px;
+  cursor: pointer;
+  margin-left: 5px;
+  vertical-align: middle;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+.gemma-btn-improve:hover {
+  opacity: 1;
+}
+
+/* Floating overlay layout box */
+.gemma-popup-container {
+  position: absolute;
+  z-index: 999999;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  padding: 10px;
+  width: 280px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+.gemma-popup-text {
+  width: 100%;
+  height: 80px;
+  font-size: 12px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  padding: 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.gemma-popup-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gemma-action-btn {
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: #f5f5f5;
+  cursor: pointer;
+}
+.gemma-action-btn.primary {
+  background: #28a745;
+  color: white;
+  border: none;
+}
